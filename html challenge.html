@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Buy some fruit from My first website</title>
+</head>
+<body bgcolor="#E6E6FA">
+	
+  <h1 style="text-align: center;">Shopping time</h1>
+  <h2 style="text-align: center;">Pick your fruits, complete the register  form and submit</h2>
+  <marquee>Let's eat some apples</marquee>
+
+  <form method="GET">
+    Apples: <br>
+    <input type="checkbox" name="apples" value="honey crisp">Honey Crisp<img src="http://www.apples.me/assets/images/honeycrisp.jpg"  width="42" height="42"><br>
+    <input type="checkbox" name="apples" value="fuji">Fuji<img src="https://images-na.ssl-images-amazon.com/images/I/81pO3uqRDML._SY355_.jpg"  width="42" height="42"><br><br>
+    Quantity: <br>
+		 <select name="quantity">
+		 	<option value="1" name="quantity">1</option>
+		 	<option value="2" name="quantity">2</option>
+		 </select><br>
+		 <br>
+    First Name: <input type="text" name="firstname"><br>
+		Last Name: <input type="text" name="lastname"><br>
+		Email: <input type="email" required="" name="email"><br>
+		Password: <input type="password" minlength ="5" name="Password"><br>		
+		Birthday: <input type="date" name="Birthday"><br>
+		Gender:<br>
+		 <input type="radio" name="gender" value="male">Male<br>
+		 <input type="radio" name="gender" value="female">Female<br>
+		 <input type="radio" name="gender" value="other">Other<br>
+		
+		<input type="submit" value="Register!">
+		<input type="reset">
+  </form>
+</body>
+</html>
